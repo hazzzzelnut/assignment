@@ -1,0 +1,96 @@
+<!-- How can we club two or more rows or columns into a single row or column in an HTML table
+
+ It can be done by using the rowspan and colspan attribute in HTML.  The rowspan is used to merge or combine the number of cells in a row whereas the colspan is used to merge column cells in a table. 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style type="text/css">
+            caption{
+                font-size: 35px;
+                font-weight: 600;
+            }
+
+            tr:nth-child(even)
+            {
+                background-color: lightgray;
+            }
+
+            th{
+                background-color: red;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+    <table align="center" border="1" width="80%" cellpadding="10" cellspacing="3">
+        <caption>Employee information table</caption>
+        <br>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>name</th>
+                <th>email</th>
+                <th>gender</th>
+                <th>address</th>
+                <th>mobile</th>
+                <th>department</th>
+                <th>action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>1</td>
+                <td>1001</td>
+                <td>harsh</td>
+                <td>harsh@mail.com</td>
+                <td>rajkot</td>
+                <td>12345 67890</td>
+                <td>it</td>
+                <td>delete</td>
+            </tr>
+
+           
+            <tr align="center">
+                <td>2</td>
+                <td>1002</td>
+                <td>maulik</td>
+                <td>harsh@mail.com</td>
+                <td>rajkot</td>
+                <td>12345 67890</td>
+                <td>it</td>
+                <td>delete</td>
+            </tr>
+
+            <tr align="center">
+                <td>3</td>
+                <td>1003</td>
+                <td>raj</td>
+                <td>harsh@mail.com</td>
+                <td>rajkot</td>
+                <td>12345 67890</td>
+                <td>it</td>
+                <td>delete</td>
+            </tr>
+
+            <tr align="center">
+                <td>4</td>
+                <td>1004</td>
+                <td>khush</td>
+                <td>harsh@mail.com</td>
+                <td>rajkot</td>
+                <td>12345 67890</td>
+                <td>it</td>
+                <td>delete</td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>
